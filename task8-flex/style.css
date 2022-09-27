@@ -1,0 +1,152 @@
+*{
+  
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("./asset/fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
+    url("./asset/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./asset/fonts/OpenSans/OpenSans-Medium.woff") format("woff"),
+    url("./asset/fonts/OpenSans/OpenSans-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./asset/fonts/OpenSans/OpenSans-Light.woff") format("woff"),
+    url("./asset/fonts/OpenSans/OpenSans-Light.woff2") format("woff2");
+  font-weight: 200;
+  font-size: normal;
+}
+body{
+  font-family: "Open Sans";
+}
+.main-container {
+  width: 100%;
+ 
+}
+
+.sub-container {
+width:80%;
+
+
+}
+.header{
+  width:40%;
+  text-align: center;
+ 
+}
+.btn-primary {
+  padding: 15px;
+  color: white;
+  border: 2px solid rgb(247, 139, 38);
+  font-size: 1em;
+  background-color: rgb(247, 139, 38);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  
+  cursor: pointer;
+}
+.btn-primary1 {
+  padding: 15px;
+  color: white;
+  border: 2px solid rgb(247, 139, 38);
+  font-size: 1em;
+  background-color: rgb(247, 139, 38);
+  border-radius: 10px;
+  
+  
+  cursor: pointer;
+}
+.header h1 {
+  margin-top: 25px;
+  /* font-size: 40px; */
+}
+
+.header p {
+  padding: 1em;
+  font-size:20px;
+}
+.container{
+  width:100%;
+  text-decoration: none;
+
+}
+.tables{   
+  
+  color: black;
+ 
+  /* border: 1px solid black; */
+
+}
+
+.flex{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  
+  
+}
+.flex1{
+  
+  display: flex;
+  list-style: none;
+  
+  width: 100%;
+  
+}
+.head ul li{
+  width: calc(100% / 4);
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+
+
+.list-1 {
+  /* background-color: lightgray; */
+  font-weight: 600;
+  background-color: lightgray; 
+  text-align: center;
+}
+.list-2{
+  font-weight:800;
+  font-size: 33px;
+  text-align: center;
+ 
+}
+.features{
+  font-weight:bolder;
+  font-size: 20px;
+}
+.main{
+  font-size:16px;
+}
+.list-3{
+  text-align: center;
+  font-size: 16px;
+}
+.list-btn{
+  text-align: center;
+}
+@media screen and (max-width: 1450px) {
+  .tables{
+    overflow-x: scroll;
+    width:100%;
+  }
+  .head ul li{
+    min-width:200px;
+  }
+  .header{
+    width:100%;
+  }
+}
